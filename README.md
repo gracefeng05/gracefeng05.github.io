@@ -1,4 +1,4 @@
-# Welcome to my portfolio!
+# Welcome To My Portfolio!
 Hi! My name's Grace Feng and I'm a first-year CS student at UC Santa Barbara. Coding and music are my two biggest passions.
 Scroll down for my code projects, Spotify artist profile, and recordings of live symphony performances - I play the tuba!
 
