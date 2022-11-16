@@ -6,10 +6,10 @@ Scroll down for my code projects, Spotify artist profile, and recordings of live
 GarageBand EP:/
 [Browo Music](https://open.spotify.com/artist/39cLkkGRyl0NMFXyyOETy4?si=7CGzgZcGTPODX04v4Qi-Hw)
 
-Tuba Performances:/
-[Andante & Rondo, Capuzzi](https://youtu.be/TZHJekqns6E)/
-[Suite for Tuba, Don Haddad](https://youtu.be/XKpZQIUZ7NM)/
-[Introduction and Dance, J.E. Barat](https://youtu.be/VyJdmd_w_w8)/
+Tuba Performances:  
+[Andante & Rondo, Capuzzi](https://youtu.be/TZHJekqns6E). 
+[Suite for Tuba, Don Haddad](https://youtu.be/XKpZQIUZ7NM). 
+[Introduction and Dance, J.E. Barat](https://youtu.be/VyJdmd_w_w8). 
 
 Piano Performances:/
 [Rêverie, Debussy](https://youtu.be/HG7fS2Q1MUc)/
