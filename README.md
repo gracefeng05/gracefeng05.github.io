@@ -1,4 +1,4 @@
-## gracefeng05.github.io
+### Grace Feng
 Email: gracefen19@gmail.com\
 Github: gracefeng05\
 Discord: grass#7273\
