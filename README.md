@@ -16,7 +16,8 @@ GitHub:
 ```
 ```markdown
 # MATLAB Cardiac Image Analysis App
-I am assisting Dr. Thomas Denney of Auburn University by designing a MATLAB UI for viewing MRI scans of the human heart.
+I am assisting Dr. Thomas Denney of Auburn University by designing a 
+MATLAB UI for viewing MRI scans of the human heart.
 
 Function of the app include:
 > 'Movie' feature for visualizing the heart's movements through its beat cycle
