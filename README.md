@@ -4,7 +4,7 @@ Scroll down for my code projects, Spotify artist profile, and recordings of live
 
 # Code Projects
 ```markdown
-## SpotiLive
+# SpotiLive
 Teleport yourself to a live performance by hearing how your favorite songs would sound in a reverberant concert hall, streetside performance, intimate jazz club, or even on Mars! You can add the sounds of crowds cheering, wineglasses clinking, and so forth for extra ambiance.
 
 _This app uses data from Spotify API to search for the user's song of choice_
@@ -13,8 +13,8 @@ Website:
 GitHub:
 ```
 ```markdown
-## MATLAB Cardiac Image Analysis App
-I am assisting Dr. Thomas Denney of Auburn University by designing a MATLAB UI for viewing MRI scans of the human heart.\
+# MATLAB Cardiac Image Analysis App
+I am assisting Dr. Thomas Denney of Auburn University by designing a MATLAB UI for viewing MRI scans of the human heart.
 
 Function of the app include:
 > 'Movie' feature for visualizing the heart's movements through its beat cycle
