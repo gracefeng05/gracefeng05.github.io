@@ -5,7 +5,9 @@ Scroll down for my code projects, Spotify artist profile, and recordings of live
 # Code Projects
 ```markdown
 # SpotiLive
-Teleport yourself to a live performance by hearing how your favorite songs would sound in a reverberant concert hall, streetside performance, intimate jazz club, or even on Mars! You can add the sounds of crowds cheering, wineglasses clinking, and so forth for extra ambiance.
+Teleport yourself to a live performance by hearing how your favorite songs would sound in a 
+reverberant concert hall, streetside performance, intimate jazz club, or even on Mars!
+You can even add the ambiance of cheering crowds or soft rain!
 
 _This app uses data from Spotify API to search for the user's song of choice_
 
