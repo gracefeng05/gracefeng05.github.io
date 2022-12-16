@@ -2,6 +2,9 @@
 Hi! My name is Grace Feng and I'm a first-year CS student at UC Santa Barbara. Coding and music are my two biggest passions.
 Scroll down for my code projects, Spotify artist profile, and acoustic music portfolio - I play the tuba!
 
+# Resume
+[link](https://docs.google.com/document/d/1yfS5iANiWjk3jh1YJfStc8sPtC2DyzxBUjrpuyHuxi0/edit?usp=sharing)
+
 # Code Projects
 ```markdown
 # MATLAB Cardiac Image Analysis App
@@ -16,8 +19,7 @@ Function of the app include:
 > Interactive images - images are clickable!
 
 Repo:
-
-App Interface:
+Design Doc: [link](https://docs.google.com/document/d/154j8pkBBA0_fzvlAX5ThOlSwlIavKaL545gFaZor-CY/edit?usp=sharing)
 
 ```
 ```markdown
