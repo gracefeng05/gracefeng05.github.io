@@ -24,7 +24,7 @@ App Interface:
 # Splotchify
 I'm in the process of making a music visualizer web app using Spotify's API. Splotchify will spawn "Splotches" on the user's screen that move according to a song's tempo and time signature.
 
-Website: (http://localhost:8888/)
+Website: [link](http://localhost:8888/)
 GitHub: 
 ```
 
