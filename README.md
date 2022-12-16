@@ -1,22 +1,11 @@
 # Welcome To My Portfolio!
 Hi! My name is Grace Feng and I'm a first-year CS student at UC Santa Barbara. Coding and music are my two biggest passions.
-Scroll down for my code projects, Spotify artist profile, and recordings of live symphony performances - I play the tuba!
+Scroll down for my code projects, Spotify artist profile, and acoustic music portfolio - I play the tuba!
 
 # Code Projects
 ```markdown
-# SpotiLive
-Teleport yourself to a live performance by hearing how your favorite songs would sound in a 
-reverberant concert hall, streetside performance, intimate jazz club, or even on Mars!
-You can even add the ambiance of cheering crowds or soft rain!
-
-_This app uses data from Spotify API to search for the user's song of choice_
-
-Website:
-GitHub:
-```
-```markdown
 # MATLAB Cardiac Image Analysis App
-I am assisting Dr. Thomas Denney of Auburn University by designing a 
+I'm assisting Dr. Thomas Denney of Auburn University in designing a 
 MATLAB UI for viewing MRI scans of the human heart.
 
 Function of the app include:
@@ -26,7 +15,17 @@ Function of the app include:
 > User-friendly interface for switching between views of the heart (Short axis view, 2-chamber view, 4-chamber view)
 > Interactive images - images are clickable!
 
-Repository: 
+Repo:
+
+App Interface:
+
+```
+```markdown
+# Splotchify
+I'm in the process of making a music visualizer web app using Spotify's API. Splotchify will spawn "Splotches" on the user's screen that move according to a song's tempo and time signature.
+
+Website: (http://localhost:8888/)
+GitHub: 
 ```
 
 # Music
