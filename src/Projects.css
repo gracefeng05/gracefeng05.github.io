@@ -1,0 +1,62 @@
+/* General styles for the page */
+.projects-page {
+    padding: 2rem;
+    background-color: #121212; /* Black background */
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .projects-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #1db954; /* Spotify green */
+  }
+  
+  /* Grid styles */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+  
+  /* Project card styles */
+  .project-card {
+    background-color: #1e1e1e; /* Dark gray background */
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Project image */
+  .project-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  /* Project info */
+  .project-info {
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  .project-title {
+    font-size: 1.25rem;
+    margin: 0 0 0.5rem;
+  }
+  
+  .project-description {
+    font-size: 1rem;
+    color: #cccccc; /* Light gray for descriptions */
+  }
+  

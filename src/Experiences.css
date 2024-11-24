@@ -1,0 +1,57 @@
+/* Experiences Page */
+.experiences-page {
+  padding: 2rem;
+  color: white;
+  background-color: #121212; /* Black background */
+  width: 100%; /* Full width */
+  box-sizing: border-box; /* Include padding in width */
+}
+
+/* Experiences Table */
+.experiences-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  color: white;
+}
+
+.experiences-table th,
+.experiences-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #2b2b2b;
+}
+
+.experiences-table th {
+  background-color: #1e1e1e;
+  color: #1db954; /* Spotify Green for column titles */
+}
+
+.experiences-table tr:hover {
+  background-color: #2a2a2a;
+}
+
+.experiences-table td {
+  color: #cccccc; /* Light gray text */
+}
+
+/* Adjust column widths */
+.experiences-table th:nth-child(1),
+.experiences-table td:nth-child(1) {
+  width: 25%; /* Company column */
+}
+
+.experiences-table th:nth-child(2),
+.experiences-table td:nth-child(2) {
+  width: 25%; /* Role column */
+}
+
+.experiences-table th:nth-child(3),
+.experiences-table td:nth-child(3) {
+  width: 30%; /* Location column */
+}
+
+.experiences-table th:nth-child(4),
+.experiences-table td:nth-child(4) {
+  width: 20%; /* Time column */
+}

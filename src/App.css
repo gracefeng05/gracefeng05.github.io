@@ -1,38 +1,136 @@
+/* Colors */
+:root {
+  --black: #121212;
+  --gray: #2b2b2b;
+  --spotify-green: #1db954;
+  --white: #ffffff;
+}
+
+/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: var(--white);
+  background-color: var(--black);
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Sidebar styles */
+.sidebar {
+  background-color: var(--gray);
+  padding: 2rem 1rem;
+  width: 250px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 1rem 0;
+}
+
+.nav-links a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: var(--spotify-green);
+}
+
+/* Main content styles */
+.main-content {
+  flex: 1;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+/* Headshot container styles */
+.headshot-container {
+  position: relative;
+  width: 70%;
+  max-width: 800px;
+  background: linear-gradient(135deg, var(--gray), var(--black));
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  color: var(--white);
+}
+
+.headshot {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0; /* Remove the circle frame */
+}
+
+.headshot-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  font-size: 2.5rem;
+  margin: 0;
+  color: var(--spotify-green);
+}
+
+.greeting {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  line-height: 1.5;
+  color: var(--white);
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  justify-content: flex-start;
+}
+
+.social-icons a {
+  color: var(--spotify-green);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: var(--white);
+  transform: scale(1.2);
+}
+
+.resume-button {
+  background-color: #1db954; /* Spotify Green */
   color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.resume-button:hover {
+  background-color: #1ed760;
+  transform: scale(1.05);
 }
