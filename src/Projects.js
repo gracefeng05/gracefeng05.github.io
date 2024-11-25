@@ -1,26 +1,26 @@
 import React from "react";
 import "./Projects.css";
+import SpotifAI from "./assets/SpotifAI.png";
+import NaiveBayes from "./assets/NaiveBayes.png";
 
 const projects = [
   {
-    title: "Project 1",
-    description: "This is a description of Project 1.",
-    image: "https://via.placeholder.com/150", // Replace with your image URL
-    github: "https://github.com/username/project1", // Replace with the actual GitHub URL
+    title: "SpotifAI",
+    description: "Spotify clone with added features.",
+    image: SpotifAI,
+    github: "https://github.com/ucsb-cs148-w24/project-pj10-spotifai",
   },
   {
-    title: "Project 2",
-    description: "This is a description of Project 2.",
-    image: "https://via.placeholder.com/150", // Replace with your image URL
-    github: "https://github.com/username/project2", // Replace with the actual GitHub URL
+    title: "ML Weather Predictor",
+    description: "Naive Bayes machine learning model trained to predict weather",
+    image: NaiveBayes,
+    github: "https://github.com/gracefeng05/Weather-Classifier-ML/tree/main",
   },
-  // Add more projects here
 ];
 
 function Projects() {
   return (
     <div className="projects-page">
-      <h1 className="projects-title">My Projects</h1>
       <div className="projects-grid">
         {projects.map((project, index) => (
           <a

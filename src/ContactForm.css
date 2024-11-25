@@ -1,0 +1,75 @@
+.contact-form-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  background: linear-gradient(135deg, var(--gray), var(--black));
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+  color: var(--white);
+}
+
+.contact-form h2 {
+  font-size: 2.5rem;
+  color: #1db954; /* Spotify green */
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center; /* Center child elements */
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--gray);
+  border-radius: 5px;
+  background-color: var(--black);
+  color: var(--white);
+  font-size: 1.5rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border: 1px solid var(--spotify-green);
+}
+
+.send-button {
+  background-color: var(--spotify-green);
+  color: var(--white);
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.send-button:hover {
+  background-color: #1ed760;
+  transform: scale(1.05);
+}
+
+.status-message {
+  text-align: center;
+  margin-top: 1rem;
+  color: var(--spotify-green);
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #cccccc; /* Light gray */
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.contact-form input:focus::placeholder,
+.contact-form textarea:focus::placeholder {
+  color: #aaaaaa;
+}

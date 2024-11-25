@@ -2,7 +2,6 @@
 .experiences-page {
   padding: 2rem;
   color: white;
-  background-color: #121212; /* Black background */
   width: 100%; /* Full width */
   box-sizing: border-box; /* Include padding in width */
 }
@@ -11,7 +10,7 @@
 .experiences-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 1rem;
+  font-size: 2rem;
   color: white;
 }
 
